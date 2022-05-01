@@ -8,8 +8,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #3891a6   ;
   --secondary-color: #fecdaa ;
-  --accent1-color: #938BA1;
-  --accent2-color: white;
+  --accent1-color: #4c5b5c;
+  --accent2-color: #fafac6;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Oxygen";
