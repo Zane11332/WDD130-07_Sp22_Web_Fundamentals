@@ -2,6 +2,12 @@ h1:hover {
 color: black;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body {
     background-color: rgb(252,166,201);
     text-align: center;
@@ -16,6 +22,9 @@ body {
     max-width: 30em;
     /* border-style: solid;
     border-color: rgb(0, 0, 0) */
+}
+.quote_name {
+    font-weight: bold;
 }
 
 .list {
@@ -44,7 +53,7 @@ img {
     max-width: 9em;
     color: white;
     font-size: 2em;
-    padding: 1em;
+    padding-bottom: 1em;
     
     /* border-style: solid;
     border-color: rgb(10, 232, 61) */
@@ -65,7 +74,6 @@ img {
     color: black;
     font-weight: bold;
     max-width: 20em;
-    padding: 1em;
 
     /* border-style: solid;
     border-color: rgb(0, 0, 0) */
