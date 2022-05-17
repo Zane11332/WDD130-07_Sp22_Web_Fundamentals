@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+    max-width: 100%;
+    width: 750px;
+}
+
+.round-image-section {
+    background-color: gray;
+    text-align: center;
+    width: 750px;
+    max-width: 100%;
+
+}
+
+.round-image-section img {
+    width: 20%;
+    border-radius: 50%;
+    border:8px solid rgb(75, 74, 74);
+    margin: 20px;
+}
