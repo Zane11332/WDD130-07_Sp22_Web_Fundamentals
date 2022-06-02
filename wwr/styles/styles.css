@@ -9,6 +9,8 @@
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 nav a {
@@ -16,6 +18,11 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     padding: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a:hover {
@@ -59,6 +66,8 @@ body {
 
 header {
     background-color: #4c5b5c;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 .book, .join {
