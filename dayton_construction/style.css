@@ -3,3 +3,25 @@
     justify-self: center;
     align-self: center;
 }
+nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #fecdaa;
+    color: #000000;
+}
+
+header {
+    background-color: #4c5b5c;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
