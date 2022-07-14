@@ -66,3 +66,58 @@ section {
     display: grid;
     grid-template-columns:auto auto auto;
 }
+footer {
+    background-color: #004E89;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: #000000;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+ul {
+    background: #004E89;
+    padding: 20px;
+    margin-left: 0;
+    padding-left: 20px;
+    text-align: left;
+    max-width: 30%;
+    font-size: 20px;
+  }
+
+ul li {
+    background: #cce5ff;
+    color: #004E89;
+    margin: 5px;
+  }
+
+@media screen and (max-width: 900px) {
+
+    nav, footer {
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
