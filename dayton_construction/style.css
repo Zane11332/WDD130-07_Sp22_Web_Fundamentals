@@ -9,6 +9,7 @@ body {
     background-color: #efefd0;
     max-width: 75%;
     margin: auto;
+    font-size: 18px;
 }
 
 #logo_link {
@@ -57,7 +58,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2{
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
